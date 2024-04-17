@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/711.f7acc392.chunk.js","mappings":"8IAAA,IAIA,EAJkB,WAElB,C","sources":["pages/CheckList/CheckList.jsx"],"sourcesContent":["const CheckList = () => {\n\n};\n\nexport default CheckList;"],"names":[],"sourceRoot":""}
