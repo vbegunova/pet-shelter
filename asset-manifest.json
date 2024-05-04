@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/test/static/css/main.f2db3b31.css",
-    "main.js": "/test/static/js/main.df984085.js",
-    "static/js/41.03f3b2c6.chunk.js": "/test/static/js/41.03f3b2c6.chunk.js",
+    "main.js": "/test/static/js/main.56396444.js",
+    "static/js/181.301393f2.chunk.js": "/test/static/js/181.301393f2.chunk.js",
     "static/js/57.2398484e.chunk.js": "/test/static/js/57.2398484e.chunk.js",
-    "static/js/899.b3fb69a1.chunk.js": "/test/static/js/899.b3fb69a1.chunk.js",
+    "static/js/534.39d10348.chunk.js": "/test/static/js/534.39d10348.chunk.js",
     "static/js/711.f7acc392.chunk.js": "/test/static/js/711.f7acc392.chunk.js",
     "static/js/990.120faf3d.chunk.js": "/test/static/js/990.120faf3d.chunk.js",
     "static/js/387.ae4507cb.chunk.js": "/test/static/js/387.ae4507cb.chunk.js",
+    "static/media/Hagrid-Extrabold.woff2": "/test/static/media/Hagrid-Extrabold.04345d7faa152f7c06e1.woff2",
     "static/media/Hagrid-Extrabold-trial.woff2": "/test/static/media/Hagrid-Extrabold-trial.21936f517ef396421c31.woff2",
     "static/media/Hagrid-Medium-trial.woff2": "/test/static/media/Hagrid-Medium-trial.dbe9b6935fe12749a9cd.woff2",
     "static/media/Hagrid-Text-Bold-trial.woff2": "/test/static/media/Hagrid-Text-Bold-trial.2de03a304e1f754fc067.woff2",
     "static/media/Hagrid-Text-Extrabold-trial.woff2": "/test/static/media/Hagrid-Text-Extrabold-trial.ba1ae4d6d62f42b6459c.woff2",
     "static/media/Hagrid-Heavy-trial.woff2": "/test/static/media/Hagrid-Heavy-trial.28e38ae4571c5c158a4d.woff2",
     "static/media/Hagrid-Text-Medium-trial.woff2": "/test/static/media/Hagrid-Text-Medium-trial.0f1622d2abc2c086412e.woff2",
-    "static/media/sprite.svg": "/test/static/media/sprite.dda18dca9e8d60fddd2e3f6ea55b5196.svg",
+    "static/media/sprite.svg": "/test/static/media/sprite.c1b55e62844af048cc282a23b4e228e7.svg",
     "static/media/e-UkraineHead-Regular.woff2": "/test/static/media/e-UkraineHead-Regular.0fbb28327828bd7a0a75.woff2",
     "static/media/e-UkraineHead-Bold.woff2": "/test/static/media/e-UkraineHead-Bold.4b986b592e38ad124c12.woff2",
     "static/media/e-Ukraine-Regular.woff2": "/test/static/media/e-Ukraine-Regular.237ebbfe11c176288048.woff2",
@@ -24,16 +25,16 @@
     "static/media/soyuz-grotesk-bold.woff2": "/test/static/media/soyuz-grotesk-bold.55912734f2b912c99ae9.woff2",
     "index.html": "/test/index.html",
     "main.f2db3b31.css.map": "/test/static/css/main.f2db3b31.css.map",
-    "main.df984085.js.map": "/test/static/js/main.df984085.js.map",
-    "41.03f3b2c6.chunk.js.map": "/test/static/js/41.03f3b2c6.chunk.js.map",
+    "main.56396444.js.map": "/test/static/js/main.56396444.js.map",
+    "181.301393f2.chunk.js.map": "/test/static/js/181.301393f2.chunk.js.map",
     "57.2398484e.chunk.js.map": "/test/static/js/57.2398484e.chunk.js.map",
-    "899.b3fb69a1.chunk.js.map": "/test/static/js/899.b3fb69a1.chunk.js.map",
+    "534.39d10348.chunk.js.map": "/test/static/js/534.39d10348.chunk.js.map",
     "711.f7acc392.chunk.js.map": "/test/static/js/711.f7acc392.chunk.js.map",
     "990.120faf3d.chunk.js.map": "/test/static/js/990.120faf3d.chunk.js.map",
     "387.ae4507cb.chunk.js.map": "/test/static/js/387.ae4507cb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f2db3b31.css",
-    "static/js/main.df984085.js"
+    "static/js/main.56396444.js"
   ]
 }
