@@ -1,5 +1,11 @@
 import PetItem from '../PetItem';
-import { Section, Container, Title, List, MoreButton } from './FindFriend.styled';
+import {
+  Section,
+  Container,
+  Title,
+  List,
+  MoreButton,
+} from './FindFriend.styled';
 
 const FindFriend = () => {
   return (
@@ -14,7 +20,7 @@ const FindFriend = () => {
           <PetItem />
           <PetItem />
         </List>
-        <MoreButton>Усі хвостики</MoreButton>
+        <MoreButton to="/adoption">Усі хвостики</MoreButton>
       </Container>
     </Section>
   );

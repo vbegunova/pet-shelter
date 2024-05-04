@@ -5,7 +5,8 @@ import {
   HelpList,
   HelpItem,
   StyledLink,
-  HelpImage
+  HelpImage,
+  BgLine,
 } from './HomeHelp.styled';
 import sprite from '../../images/sprite.svg';
 
@@ -27,6 +28,9 @@ const HomeHelp = () => {
         <use href={`${sprite}#icon-cat`}></use>
       </HelpImage>
       <StyledLink to="/help">Дізнатись більше</StyledLink>
+      <BgLine>
+        <use href={`${sprite}#icon-line-first`}></use>
+      </BgLine>
     </SectionHelp>
   );
 };

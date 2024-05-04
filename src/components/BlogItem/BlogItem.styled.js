@@ -8,12 +8,14 @@ export const ItemContainer = styled.li`
   background-color: ${globalColors.newsCardBg};
   border-radius: 30px;
   padding: 196px 18px 17px;
+  box-shadow: 0px 2.01px 30.65px rgba(0, 0, 0, 0.17);
 
   @media screen and (min-width: 768px) {
     width: calc((100% - 23px) / 2);
     height: 320px;
     border-radius: 34px;
     padding: 219px 20px 20px;
+    box-shadow: 0px 2.24px 34.14px rgba(0, 0, 0, 0.17);
   }
 
   @media screen and (min-width: 1440px) {
@@ -21,6 +23,7 @@ export const ItemContainer = styled.li`
     height: 571px;
     border-radius: 60px;
     padding: 391px 36px 36px;
+    box-shadow: 0px 4px 61px rgba(0, 0, 0, 0.17);
   }
 `;
 

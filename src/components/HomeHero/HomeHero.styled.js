@@ -4,8 +4,10 @@ import { ContainerStyled } from '../../Styled/ContainerStyled';
 import { NavLink } from 'react-router-dom';
 
 export const SectionHero = styled.section`
+  position: relative;
   padding-top: 126px;
   padding-bottom: 47px;
+  overflow: hidden;
 
   @media screen and (min-width: 768px) {
     padding-top: 137px;
@@ -21,6 +23,7 @@ export const SectionHero = styled.section`
 export const HeroContainer = styled.div`
   ${ContainerStyled}
   position: relative;
+  z-index: 1;
 `;
 
 export const Title = styled.h1`
@@ -168,5 +171,54 @@ export const ButtonIcon = styled.svg`
   @media screen and (min-width: 1440px) {
     width: 73px;
     height: 82px;
+  }
+`;
+
+export const BgLineFirst = styled.svg`
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: block;
+    width: 1399px;
+    height: 806px;
+    position: absolute;
+    transform: rotate(-9.95);
+    left: -294px;
+    top: -125px;
+    opacity: 0.06;
+    z-index: 0;
+    stroke: ${globalColors.light};
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 2576px;
+    height: 1484px;
+    left: -589px;
+    top: -150px;
+  }
+`;
+
+export const BgLineSecond = styled.svg`
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: block;
+    transform: scaleY(-1);
+    transform: rotate(9.95);
+    position: absolute;
+    width: 1033px;
+    height: 595px;
+    left: 284px;
+    top: -10px;
+    opacity: 0.06;
+    z-index: 0;
+    stroke: ${globalColors.light};
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 1902px;
+    height: 1096px;
+    left: 468px;
+    top: 50px;
   }
 `;

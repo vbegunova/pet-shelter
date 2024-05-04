@@ -5,6 +5,7 @@ import { NavLink } from 'react-router-dom';
 export const SectionHelp = styled.section`
   position: relative;
   z-index: 2;
+  overflow: hidden;
   width: 100%;
   padding: 38px 17px 214px;
   border-radius: 30px;
@@ -26,6 +27,7 @@ export const SectionHelp = styled.section`
 `;
 
 export const HelpTitle = styled.h2`
+  z-index: 2;
   font-family: 'Hagrid Trial', sans-serif;
   font-weight: 800;
   color: ${globalColors.title};
@@ -44,6 +46,7 @@ export const HelpTitle = styled.h2`
 `;
 
 export const HelpSubtitle = styled.p`
+  z-index: 2;
   margin-bottom: 26px;
   font-family: 'Hagrid Trial', sans-serif;
   font-weight: 500;
@@ -66,6 +69,7 @@ export const HelpSubtitle = styled.p`
 `;
 
 export const HelpList = styled.ul`
+  z-index: 2;
   margin-bottom: 34px;
   display: flex;
   flex-direction: column;
@@ -87,6 +91,7 @@ export const HelpList = styled.ul`
 `;
 
 export const HelpItem = styled.li`
+  z-index: 2;
   font-weight: 300;
   color: ${globalColors.listItem};
   font-size: 16px;
@@ -102,6 +107,7 @@ export const HelpItem = styled.li`
 `;
 
 export const StyledLink = styled(NavLink)`
+  z-index: 2;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -138,6 +144,7 @@ export const StyledLink = styled(NavLink)`
 `;
 
 export const HelpImage = styled.svg`
+  z-index: 2;
   position: absolute;
   bottom: 0;
   right: 30px;
@@ -154,5 +161,22 @@ export const HelpImage = styled.svg`
     right: -50px;
     width: 546px;
     height: 531px;
+  }
+`;
+
+export const BgLine = styled.svg`
+  display: none;
+
+  @media screen and (min-width: 1440px) {
+    display: block;
+    transform: scaleY(-1);
+    transform: rotate(9.95);
+    position: absolute;
+    width: 2010px;
+    height: 1158px;
+    left: -170px;
+    top: -460px;
+    stroke: rgba(135, 120, 153, 0.07);
+    z-index: 0;
   }
 `;

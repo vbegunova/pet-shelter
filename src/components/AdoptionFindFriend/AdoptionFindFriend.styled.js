@@ -1,29 +1,33 @@
-import styled from 'styled-components';
-import { globalColors } from '../../Styled/GlobalColors';
 import { ContainerStyled } from '../../Styled/ContainerStyled';
+import { globalColors } from '../../Styled/GlobalColors';
 import { NavLink } from 'react-router-dom';
+import styled from 'styled-components';
 
 export const Section = styled.section`
   background-color: ${globalColors.light};
   box-shadow: 0 -5px 114px rgba(0, 0, 0, 0.15);
   border-radius: 30px;
   padding-top: 42px;
-  padding-bottom: 50px;
+  padding-bottom: 36px;
+  position: relative;
 
   @media screen and (min-width: 768px) {
     padding-top: 45px;
     padding-bottom: 44px;
+    box-shadow: 0 -2.78px 63.49px rgba(0, 0, 0, 0.15);
   }
 
   @media screen and (min-width: 1440px) {
-    border-radius: 60px;
+    border-radius: none;
+    box-shadow: none;
     padding-top: 82px;
-    padding-bottom: 80px;
+    padding-bottom: 169px;
   }
 `;
 
 export const Container = styled.div`
   ${ContainerStyled};
+  position: relative;
 `;
 
 export const Title = styled.h2`
@@ -72,7 +76,7 @@ export const MoreButton = styled(NavLink)`
   align-items: center;
   justify-content: center;
   color: ${globalColors.accent};
-  background-color: ${globalColors.light};
+  background-color: transparent;
   font-family: 'Hagrid Trial', sans-serif;
   font-weight: 900;
   text-transform: uppercase;
@@ -100,4 +104,55 @@ export const MoreButton = styled(NavLink)`
     border-radius: 100px;
     border: 3px solid ${globalColors.accent};
   }
+`;
+
+// export const BgLineFirst = styled.svg`
+//   display: none;
+
+//   @media screen and (min-width: 768px) {
+//     display: block;
+//     width: 1399px;
+//     height: 806px;
+//     position: absolute;
+//     transform: rotate(0deg) scaleY(-1);
+//     left: -294px;
+//     top: -125px;
+//     z-index: 0;
+//     stroke: rgba(71, 33, 121, 0.12);
+//   }
+
+//   @media screen and (min-width: 1440px) {
+//     width: 1902px;
+//     height: 1096px;
+//     left: -130px;
+//     top: 450px;
+//   }
+// `;
+
+export const BgLineFirst = styled.svg`
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: block;
+    width: 967px;
+    height: 557px;
+    position: absolute;
+    transform: rotate(0deg) scaleY(-1);
+    left: -160px;
+    top: 340px;
+    z-index: 0;
+    stroke: rgba(71, 33, 121, 0.12);
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 1810px;
+    height: 1196px;
+    left: -370px;
+    top: 360px;
+  }
+`;
+
+export const Box = styled.div`
+  position: relative;
+  z-index: 1;
 `;

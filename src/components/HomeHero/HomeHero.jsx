@@ -7,7 +7,9 @@ import {
   HeroImage,
   StyledLink,
   ButtonText,
-  ButtonIcon
+  ButtonIcon,
+  BgLineFirst,
+  BgLineSecond,
 } from './HomeHero.styled';
 import sprite from '../../images/sprite.svg';
 import HomeHelp from '../HomeHelp';
@@ -37,8 +39,14 @@ const HomeHero = () => {
             <use href={`${sprite}#icon-paw`}></use>
           </ButtonIcon>
         </StyledLink>
-      <HomeHelp/>
+        <HomeHelp />
       </HeroContainer>
+      <BgLineFirst>
+        <use href={`${sprite}#icon-line-first`}></use>
+      </BgLineFirst>
+      <BgLineSecond>
+        <use href={`${sprite}#icon-line-first`}></use>
+      </BgLineSecond>
     </SectionHero>
   );
 };

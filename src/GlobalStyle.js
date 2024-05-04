@@ -6,6 +6,7 @@ import HagridTrialHeavy from './fonts/Hagrid-Heavy-trial.woff2';
 import HagridTextTrialMedium from './fonts/Hagrid-Text-Medium-trial.woff2';
 import HagridTextTrialBold from './fonts/Hagrid-Text-Bold-trial.woff2';
 import HagridTextTrialExtrabold from './fonts/Hagrid-Text-Extrabold-trial.woff2';
+import HagridExtrabold from './fonts/Hagrid-Extrabold.woff2';
 import SoyuzGrotesk from './fonts/soyuz-grotesk-bold.woff2';
 import eUkraineLight from './fonts/e-Ukraine-Light.woff2';
 import eUkraineRegular from './fonts/e-Ukraine-Regular.woff2';
@@ -53,6 +54,13 @@ export const GlobalStyle = createGlobalStyle`
   @font-face {
     font-family: 'Hagrid Text Trial';
     src: url(${HagridTextTrialExtrabold}) format('woff2');
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Hagrid Text';
+    src: url(${HagridExtrabold}) format('woff2');
     font-weight: 800;
     font-style: normal;
   }
