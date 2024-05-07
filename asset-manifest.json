@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/test/static/css/main.f2db3b31.css",
-    "main.js": "/test/static/js/main.56396444.js",
+    "main.js": "/test/static/js/main.01e115e4.js",
     "static/js/181.301393f2.chunk.js": "/test/static/js/181.301393f2.chunk.js",
     "static/js/57.2398484e.chunk.js": "/test/static/js/57.2398484e.chunk.js",
     "static/js/534.39d10348.chunk.js": "/test/static/js/534.39d10348.chunk.js",
     "static/js/711.f7acc392.chunk.js": "/test/static/js/711.f7acc392.chunk.js",
-    "static/js/990.120faf3d.chunk.js": "/test/static/js/990.120faf3d.chunk.js",
+    "static/js/649.75248ab6.chunk.js": "/test/static/js/649.75248ab6.chunk.js",
     "static/js/387.ae4507cb.chunk.js": "/test/static/js/387.ae4507cb.chunk.js",
     "static/media/Hagrid-Extrabold.woff2": "/test/static/media/Hagrid-Extrabold.04345d7faa152f7c06e1.woff2",
     "static/media/Hagrid-Extrabold-trial.woff2": "/test/static/media/Hagrid-Extrabold-trial.21936f517ef396421c31.woff2",
@@ -25,16 +25,16 @@
     "static/media/soyuz-grotesk-bold.woff2": "/test/static/media/soyuz-grotesk-bold.55912734f2b912c99ae9.woff2",
     "index.html": "/test/index.html",
     "main.f2db3b31.css.map": "/test/static/css/main.f2db3b31.css.map",
-    "main.56396444.js.map": "/test/static/js/main.56396444.js.map",
+    "main.01e115e4.js.map": "/test/static/js/main.01e115e4.js.map",
     "181.301393f2.chunk.js.map": "/test/static/js/181.301393f2.chunk.js.map",
     "57.2398484e.chunk.js.map": "/test/static/js/57.2398484e.chunk.js.map",
     "534.39d10348.chunk.js.map": "/test/static/js/534.39d10348.chunk.js.map",
     "711.f7acc392.chunk.js.map": "/test/static/js/711.f7acc392.chunk.js.map",
-    "990.120faf3d.chunk.js.map": "/test/static/js/990.120faf3d.chunk.js.map",
+    "649.75248ab6.chunk.js.map": "/test/static/js/649.75248ab6.chunk.js.map",
     "387.ae4507cb.chunk.js.map": "/test/static/js/387.ae4507cb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f2db3b31.css",
-    "static/js/main.56396444.js"
+    "static/js/main.01e115e4.js"
   ]
 }
