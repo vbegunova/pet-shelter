@@ -111,7 +111,7 @@ const Footer = () => {
         </TopContainer>
         <BottomContainer>
           <ButtonsContainer>
-            <Button>Знайти друга</Button>
+            <Button to="/adoption">Знайти друга</Button>
             <Button>Надіслати лист</Button>
           </ButtonsContainer>
           <SocMediaList>

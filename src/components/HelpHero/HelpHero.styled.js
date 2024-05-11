@@ -34,7 +34,7 @@ export const Title = styled.h1`
   margin-bottom: 36px;
 
   @media screen and (min-width: 768px) {
-    font-size: 55px;
+    font-size: 50px;
     letter-spacing: -0.3px;
     text-align: left;
   }
@@ -111,7 +111,7 @@ export const StyledLink = styled(NavLink)`
     background-color: ${globalColors.accent};
     border-radius: 50%;
     border: none;
-    left: 440px;
+    left: 390px;
     top: 163px;
     width: 182px;
     height: 182px;
@@ -167,7 +167,7 @@ export const HeroImage = styled.svg`
 
   @media screen and (min-width: 768px) {
     top: -16px;
-    right: -50px;
+    right: 0px;
     width: 300px;
     height: 467px;
   }

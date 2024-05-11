@@ -1,77 +1,112 @@
 import { globalColors } from '../../Styled/GlobalColors';
+import { ContainerStyled } from '../../Styled/ContainerStyled';
 import styled from 'styled-components';
 
 export const Section = styled.section`
-  padding: 56px 10px 72px;
-  border-radius: 30px;
-  background-color: ${globalColors.light};
-  position: relative;
-  box-shadow: 0 -5px 114px rgba(0, 0, 0, 0.15);
+  padding-bottom: 253px;
 
   @media screen and (min-width: 768px) {
-    padding: 43px 45px 62px;
-    background-color: ${globalColors.secondaryBg};
-    border-radius: 23px;
+    padding-bottom: 60px;
   }
 
   @media screen and (min-width: 1440px) {
-    padding: 90px 100px;
-    background-color: ${globalColors.light};
-    border-radius: 60px;
+    padding-bottom: 180px;
   }
 `;
 
+export const Container = styled.div`
+  ${ContainerStyled}
+  position: relative;
+`;
+
 export const Title = styled.h2`
-  margin-bottom: 38px;
   font-family: 'Hagrid Trial', sans-serif;
   font-weight: 800;
-  font-size: 32px;
-  line-height: 0.9;
   letter-spacing: -0.2px;
-  color: ${globalColors.title};
+  font-size: 18px;
+  margin-bottom: 15px;
   text-align: center;
+  color: ${globalColors.light};
 
   @media screen and (min-width: 768px) {
-    margin-bottom: 24px;
-    font-size: 40px;
+    margin-bottom: 22px;
+    font-size: 28px;
     text-align: left;
   }
 
   @media screen and (min-width: 1440px) {
-    margin-bottom: 45px;
-    font-size: 71px;
+    margin-bottom: 42px;
+    font-size: 51px;
+  }
+`;
+
+export const Box = styled.div`
+  @media screen and (min-width: 768px) {
+    width: 400px;
+    margin-left: auto;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 736px;
   }
 `;
 
 export const Text = styled.p`
   font-family: 'eUkraine', sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 1.25;
+  font-weight: 400;
+  font-size: 14px;
   letter-spacing: -0.4px;
-  margin-bottom: 33px;
-  color: ${globalColors.listItem};
-  text-align: center;
+  line-height: 1.3;
+  color: ${globalColors.light};
+  margin-bottom: 32px;
 
   @media screen and (min-width: 768px) {
-    font-size: 9px;
-    line-height: 1.3;
-    width: 416px;
-    text-align: left;
-    margin-bottom: 17px;
+    font-size: 15px;
+    line-height: 1.2;
+    width: 400px;
+    margin-bottom: 44px;
   }
 
   @media screen and (min-width: 1440px) {
-    font-size: 16px;
-    line-height: 1.25;
-    width: 759px;
-    margin-bottom: 35px;
+    line-height: 1.3;
+    width: 736px;
+    margin-bottom: 43px;
+  }
+`;
+
+export const FirstText = styled(Text)`
+  margin-bottom: 15px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 19px;
+  }
+`;
+
+export const Image = styled.svg`
+  position: absolute;
+  left: -50px;
+  bottom: -233px;
+  width: 360px;
+  height: 210px;
+
+  @media screen and (min-width: 768px) {
+    width: 355px;
+    height: 206px;
+    bottom: 246px;
+    left: -75px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 572px;
+    height: 315px;
+    bottom: 0;
+    left: -30px;
   }
 `;
 
 export const Button = styled.button`
-  width: 179px;
-  height: 47px;
+  width: 190px;
+  height: 50px;
   border-radius: 60px;
   background-color: ${globalColors.accent};
   color: ${globalColors.light};
@@ -90,7 +125,7 @@ export const Button = styled.button`
 
   @media screen and (min-width: 768px) {
     margin-left: 0;
-    width: 156px;
+    width: 170px;
     height: 45px;
     border-radius: 56px;
     font-size: 10px;
@@ -102,28 +137,5 @@ export const Button = styled.button`
     border-radius: 100px;
     font-size: 18px;
     padding-bottom: 5px;
-  }
-`;
-
-export const Icon = styled.svg`
-  position: absolute;
-  bottom: 20px;
-  right: -60px;
-  width: 110px;
-  height: 124px;
-  fill: ${globalColors.accent};
-  transform: rotate(-31deg);
-
-  @media screen and (min-width: 768px) {
-    width: 176px;
-    height: 199px;
-    transform: rotate(0deg);
-    right: 30px;
-  }
-  
-  @media screen and (min-width: 1440px) {
-    width: 298px;
-    height: 337px;
-    bottom: 30px;
   }
 `;
