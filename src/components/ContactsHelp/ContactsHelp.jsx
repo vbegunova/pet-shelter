@@ -1,4 +1,3 @@
-import sprite from '../../images/sprite.svg'
 import {
   Box,
   Container,
@@ -10,19 +9,15 @@ import {
   StyledLink,
   Text,
   Title,
-} from './CheckListNeedToKnow.styled';
+} from './ContactsHelp.styled';
+import sprite from '../../images/sprite.svg'
 
-const CheckListNeedToKnow = () => {
+const ContactsHelp = () => {
   return (
     <Section>
       <Container>
-        <Title>Хочу допомогти!</Title>
+        <Title>Як допомогти?</Title>
         <Box>
-          <ImageBox>
-            <Image>
-              <use href={`${sprite}#icon-check-list-help`}></use>
-            </Image>
-          </ImageBox>
           <div>
             <Text>
               Є багато способів як допомогти хвостикам. Обирай той, який
@@ -36,10 +31,15 @@ const CheckListNeedToKnow = () => {
             </List>
             <StyledLink to="/help">Дізнатись більше</StyledLink>
           </div>
+          <ImageBox>
+            <Image>
+              <use href={`${sprite}#icon-walk-dreaming`}></use>
+            </Image>
+          </ImageBox>
         </Box>
       </Container>
     </Section>
   );
 };
 
-export default CheckListNeedToKnow;
+export default ContactsHelp;
