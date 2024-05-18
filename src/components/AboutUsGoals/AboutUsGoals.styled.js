@@ -25,7 +25,7 @@ export const Section = styled.section`
 
 export const Container = styled.div`
   ${ContainerStyled}
-`;
+`;  
 
 export const Title = styled.h2`
   font-family: 'Hagrid Trial', sans-serif;

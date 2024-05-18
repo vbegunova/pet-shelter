@@ -28,6 +28,7 @@ export const Title = styled.h2`
   color: ${globalColors.title};
   letter-spacing: -0.3px;
   margin-bottom: 22px;
+  text-align: center;
 
   @media screen and (min-width: 768px) {
     margin-bottom: 40px;
@@ -55,8 +56,10 @@ export const Text = styled.p`
   letter-spacing: -0.2px;
   line-height: 1.2;
   margin-bottom: 25px;
+  text-align: center;
 
   @media screen and (min-width: 768px) {
+    text-align: left;
     letter-spacing: 0;
     width: 368px;
     margin-bottom: 0;

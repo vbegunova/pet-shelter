@@ -74,6 +74,7 @@ export const MoreBtn = styled(NavLink)`
   font-weight: 900;
   font-size: 12px;
   border-radius: 68px;
+  text-transform: uppercase;
 
   @media screen and (min-width: 768px) {
     width: 183px;
