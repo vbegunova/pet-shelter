@@ -18,8 +18,8 @@ const Header = ({ onOpen }) => {
   const currentPage = location.pathname;
   const headerColor =
     currentPage === '/about-us' ||
-    currentPage === '/adoption' ||
-    currentPage === '/contacts'
+    currentPage === '/contacts' ||
+    currentPage.includes('adoption')
       ? globalColors.text
       : globalColors.light;
 

@@ -1,6 +1,5 @@
 import { ContainerStyled } from '../../Styled/ContainerStyled';
 import { globalColors } from '../../Styled/GlobalColors';
-import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const Section = styled.section`
@@ -69,7 +68,7 @@ export const List = styled.ul`
   }
 `;
 
-export const MoreButton = styled(NavLink)`
+export const MoreButton = styled.button`
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -138,7 +137,7 @@ export const BgLineFirst = styled.svg`
     height: 557px;
     position: absolute;
     transform: rotate(0deg) scaleY(-1);
-    left: -160px;
+    left: -260px;
     top: 340px;
     z-index: 0;
     stroke: rgba(71, 33, 121, 0.12);
@@ -155,4 +154,64 @@ export const BgLineFirst = styled.svg`
 export const Box = styled.div`
   position: relative;
   z-index: 1;
+`;
+
+export const PaginationWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+
+  @media screen and (min-width: 768px) {
+    gap: 30px;
+  }
+`;
+
+export const PaginationButton = styled.button`
+  width: 44px;
+  height: 44px;
+  border: 4px solid ${globalColors.accent};
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+
+  @media screen and (min-width: 768px) {
+    width: 41px;
+    height: 41px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 75px;
+    height: 75px;
+    border: 5px solid ${globalColors.accent};
+  }
+
+  cursor: pointer;
+  &:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+`;
+
+export const PaginationIcon = styled.img`
+  width: 18px;
+  height: 18px;
+
+  @media screen and (min-width: 1440px) {
+    width: 30px;
+    height: 30px;
+  }
+`;
+
+export const PaginationText = styled.p`
+  font-family: 'eUkraine', sans-serif;
+  font-weight: 500;
+  color: ${globalColors.text};
+
+  @media screen and (min-width: 1440px) {
+    font-size: 18px;
+  }
 `;

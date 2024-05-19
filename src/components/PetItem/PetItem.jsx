@@ -1,18 +1,22 @@
-import { Item, Name, Info, StyledLink, LinkIcon } from "./PetItem.styled";
+import { Item, Name, Info, StyledLink, LinkIcon } from './PetItem.styled';
 import sprite from '../../images/sprite.svg';
 
-const PetItem = () => {
+const PetItem = ({ id, name, sex, age }) => {
+  console.log(id);
   return (
-    <Item>
-      <Name>Тоша</Name>
-      <Info>Хлопчик, 3 роки</Info>
-      <StyledLink>Усиновити
+    <Item key={id}>
+      <Name>{name}</Name>
+      <Info>
+        {sex === 'Жіноча' ? 'Дівчинка' : 'Хлопчик'}, {age}
+      </Info>
+      <StyledLink to={`/adoption/${id}`}>
+        Усиновити
         <LinkIcon>
           <use href={`${sprite}#icon-paw`}></use>
         </LinkIcon>
       </StyledLink>
     </Item>
-  )
+  );
 };
 
 export default PetItem;

@@ -5,6 +5,7 @@ import SharedLayout from './SharedLayout';
 const Home = lazy(() => import('../pages/Home'));
 const AboutUs = lazy(() => import('../pages/AboutUs'));
 const Adoption = lazy(() => import('../pages/Adoption'));
+const PetPage = lazy(() => import('../pages/PetPage'))
 const CheckList = lazy(() => import('../pages/CheckList'));
 const Help = lazy(() => import('../pages/Help'));
 const Contacts = lazy(() => import('../pages/Contacts'));
@@ -17,6 +18,7 @@ export const App = () => {
           <Route index element={<Home />} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/adoption" element={<Adoption />} />
+          <Route path="/adoption/:petId" element={<PetPage />} />
           <Route path="/check-list" element={<CheckList />} />
           <Route path="/help" element={<Help />} />
           <Route path="/contacts" element={<Contacts />} />
