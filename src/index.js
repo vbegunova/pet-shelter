@@ -9,7 +9,7 @@ import { globalColors } from './Styled/GlobalColors';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/test">
+    <BrowserRouter basename="/">
       <ThemeProvider theme={globalColors}>
         <GlobalStyle />
         <App />
