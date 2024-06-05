@@ -88,7 +88,7 @@ export const StyledLink = styled(NavLink)`
   }
 `;
 
-export const Button = styled.a`
+export const Button = styled(NavLink)`
   display: none;
   font-family: 'Hagrid Trial', sans-serif;
   font-weight: 900;

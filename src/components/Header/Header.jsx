@@ -58,12 +58,12 @@ const Header = ({ onOpen }) => {
             </li>
             <li>
               <StyledLink
-                to="/gallery"
+                to="/check-list"
                 theme={{
                   main: headerColor,
                 }}
               >
-                Галерея
+                Чек-ліст
               </StyledLink>
             </li>
             <li>
@@ -97,7 +97,7 @@ const Header = ({ onOpen }) => {
               </StyledLink>
             </li>
           </NavigationList>
-          <Button>Знайти друга</Button>
+          <Button to="/adoption">Знайти друга</Button>
         </Navigation>
         <MobileMenuButton
           theme={{
